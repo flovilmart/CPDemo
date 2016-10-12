@@ -12,9 +12,46 @@
 		4A5DFF571DAE754000C2E23E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5DFF551DAE754000C2E23E /* Main.storyboard */; };
 		4A5DFF591DAE754000C2E23E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A5DFF581DAE754000C2E23E /* Assets.xcassets */; };
 		4A5DFF5C1DAE754000C2E23E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A5DFF5A1DAE754000C2E23E /* LaunchScreen.storyboard */; };
+		4A5DFF6C1DAE756000C2E23E /* CPDemoFWRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5DFF6A1DAE756000C2E23E /* CPDemoFWRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A5DFF6F1DAE756000C2E23E /* CPDemoFWRK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DFF681DAE756000C2E23E /* CPDemoFWRK.framework */; };
+		4A5DFF701DAE756000C2E23E /* CPDemoFWRK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DFF681DAE756000C2E23E /* CPDemoFWRK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A5DFF7B1DAE76EB00C2E23E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DFF761DAE76EB00C2E23E /* Bolts.framework */; };
+		4A5DFF7C1DAE76EB00C2E23E /* BoltsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DFF771DAE76EB00C2E23E /* BoltsSwift.framework */; };
+		4A5DFF7D1DAE76EB00C2E23E /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DFF781DAE76EB00C2E23E /* Parse.framework */; };
+		4A5DFF7E1DAE76EB00C2E23E /* ParseLiveQuery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DFF791DAE76EB00C2E23E /* ParseLiveQuery.framework */; };
+		4A5DFF7F1DAE76EB00C2E23E /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5DFF7A1DAE76EB00C2E23E /* SocketRocket.framework */; };
+		8987A91493B48BB220056E21 /* libPods-CPDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 140B661704578BF0B422DBA0 /* libPods-CPDemo.a */; };
+		AC7108323C16C7170BF8EA2E /* Pods_CPDemoFWRK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8439D342A22EDD25407EDCCA /* Pods_CPDemoFWRK.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4A5DFF6D1DAE756000C2E23E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A5DFF461DAE754000C2E23E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A5DFF671DAE756000C2E23E;
+			remoteInfo = CPDemoFWRK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4A5DFF741DAE756000C2E23E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4A5DFF701DAE756000C2E23E /* CPDemoFWRK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		140B661704578BF0B422DBA0 /* libPods-CPDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CPDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C9C2BABB8E5EC9DE9CF91C /* Pods-CPDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPDemo/Pods-CPDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2B4524CC82A53F4F877BE6E8 /* Pods-CPDemoFWRK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPDemoFWRK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPDemoFWRK/Pods-CPDemoFWRK.debug.xcconfig"; sourceTree = "<group>"; };
 		4A5DFF4E1DAE754000C2E23E /* CPDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5DFF511DAE754000C2E23E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A5DFF531DAE754000C2E23E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +59,17 @@
 		4A5DFF581DAE754000C2E23E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A5DFF5B1DAE754000C2E23E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A5DFF5D1DAE754000C2E23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5DFF681DAE756000C2E23E /* CPDemoFWRK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CPDemoFWRK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5DFF6A1DAE756000C2E23E /* CPDemoFWRK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPDemoFWRK.h; sourceTree = "<group>"; };
+		4A5DFF6B1DAE756000C2E23E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5DFF761DAE76EB00C2E23E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Library/Developer/Xcode/DerivedData/CPDemo-dwzsvsxseybevwedcamcwhaebpei/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework"; sourceTree = "<group>"; };
+		4A5DFF771DAE76EB00C2E23E /* BoltsSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BoltsSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/CPDemo-dwzsvsxseybevwedcamcwhaebpei/Build/Products/Debug-iphonesimulator/Bolts-Swift/BoltsSwift.framework"; sourceTree = "<group>"; };
+		4A5DFF781DAE76EB00C2E23E /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Library/Developer/Xcode/DerivedData/CPDemo-dwzsvsxseybevwedcamcwhaebpei/Build/Products/Debug-iphonesimulator/Parse/Parse.framework"; sourceTree = "<group>"; };
+		4A5DFF791DAE76EB00C2E23E /* ParseLiveQuery.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseLiveQuery.framework; path = "../../Library/Developer/Xcode/DerivedData/CPDemo-dwzsvsxseybevwedcamcwhaebpei/Build/Products/Debug-iphonesimulator/ParseLiveQuery/ParseLiveQuery.framework"; sourceTree = "<group>"; };
+		4A5DFF7A1DAE76EB00C2E23E /* SocketRocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketRocket.framework; path = "../../Library/Developer/Xcode/DerivedData/CPDemo-dwzsvsxseybevwedcamcwhaebpei/Build/Products/Debug-iphonesimulator/SocketRocket/SocketRocket.framework"; sourceTree = "<group>"; };
+		7BC291169D9DC0349867D0E6 /* Pods-CPDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPDemo/Pods-CPDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8439D342A22EDD25407EDCCA /* Pods_CPDemoFWRK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPDemoFWRK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDEDE927DDC64800787DDBE3 /* Pods-CPDemoFWRK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPDemoFWRK.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPDemoFWRK/Pods-CPDemoFWRK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +77,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5DFF6F1DAE756000C2E23E /* CPDemoFWRK.framework in Frameworks */,
+				8987A91493B48BB220056E21 /* libPods-CPDemo.a in Frameworks */,
+				4A5DFF7B1DAE76EB00C2E23E /* Bolts.framework in Frameworks */,
+				4A5DFF7C1DAE76EB00C2E23E /* BoltsSwift.framework in Frameworks */,
+				4A5DFF7D1DAE76EB00C2E23E /* Parse.framework in Frameworks */,
+				4A5DFF7E1DAE76EB00C2E23E /* ParseLiveQuery.framework in Frameworks */,
+				4A5DFF7F1DAE76EB00C2E23E /* SocketRocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A5DFF641DAE756000C2E23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7108323C16C7170BF8EA2E /* Pods_CPDemoFWRK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E6044AB5CB7F72F3CEFE89C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BC291169D9DC0349867D0E6 /* Pods-CPDemo.debug.xcconfig */,
+				27C9C2BABB8E5EC9DE9CF91C /* Pods-CPDemo.release.xcconfig */,
+				2B4524CC82A53F4F877BE6E8 /* Pods-CPDemoFWRK.debug.xcconfig */,
+				DDEDE927DDC64800787DDBE3 /* Pods-CPDemoFWRK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F24D9BA640EF0F89067CFC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A5DFF761DAE76EB00C2E23E /* Bolts.framework */,
+				4A5DFF771DAE76EB00C2E23E /* BoltsSwift.framework */,
+				4A5DFF781DAE76EB00C2E23E /* Parse.framework */,
+				4A5DFF791DAE76EB00C2E23E /* ParseLiveQuery.framework */,
+				4A5DFF7A1DAE76EB00C2E23E /* SocketRocket.framework */,
+				140B661704578BF0B422DBA0 /* libPods-CPDemo.a */,
+				8439D342A22EDD25407EDCCA /* Pods_CPDemoFWRK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4A5DFF451DAE754000C2E23E = {
 			isa = PBXGroup;
 			children = (
 				4A5DFF501DAE754000C2E23E /* CPDemo */,
+				4A5DFF691DAE756000C2E23E /* CPDemoFWRK */,
 				4A5DFF4F1DAE754000C2E23E /* Products */,
+				0E6044AB5CB7F72F3CEFE89C /* Pods */,
+				1F24D9BA640EF0F89067CFC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				4A5DFF4E1DAE754000C2E23E /* CPDemo.app */,
+				4A5DFF681DAE756000C2E23E /* CPDemoFWRK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,25 +156,71 @@
 			path = CPDemo;
 			sourceTree = "<group>";
 		};
+		4A5DFF691DAE756000C2E23E /* CPDemoFWRK */ = {
+			isa = PBXGroup;
+			children = (
+				4A5DFF6A1DAE756000C2E23E /* CPDemoFWRK.h */,
+				4A5DFF6B1DAE756000C2E23E /* Info.plist */,
+			);
+			path = CPDemoFWRK;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A5DFF651DAE756000C2E23E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5DFF6C1DAE756000C2E23E /* CPDemoFWRK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4A5DFF4D1DAE754000C2E23E /* CPDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A5DFF601DAE754000C2E23E /* Build configuration list for PBXNativeTarget "CPDemo" */;
 			buildPhases = (
+				EF6DFE91591AAF53783DC8B6 /* [CP] Check Pods Manifest.lock */,
 				4A5DFF4A1DAE754000C2E23E /* Sources */,
 				4A5DFF4B1DAE754000C2E23E /* Frameworks */,
 				4A5DFF4C1DAE754000C2E23E /* Resources */,
+				4A5DFF741DAE756000C2E23E /* Embed Frameworks */,
+				52A5B70304608F7CEDC2321E /* [CP] Embed Pods Frameworks */,
+				009C8138CFD0A2D845C1539B /* [CP] Copy Pods Resources */,
+				4A5DFF751DAE768C00C2E23E /* Copy CPDemoFRWK frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4A5DFF6E1DAE756000C2E23E /* PBXTargetDependency */,
 			);
 			name = CPDemo;
 			productName = CPDemo;
 			productReference = 4A5DFF4E1DAE754000C2E23E /* CPDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4A5DFF671DAE756000C2E23E /* CPDemoFWRK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A5DFF711DAE756000C2E23E /* Build configuration list for PBXNativeTarget "CPDemoFWRK" */;
+			buildPhases = (
+				53552ED7EA3F97C77FB3C5F5 /* [CP] Check Pods Manifest.lock */,
+				4A5DFF631DAE756000C2E23E /* Sources */,
+				4A5DFF641DAE756000C2E23E /* Frameworks */,
+				4A5DFF651DAE756000C2E23E /* Headers */,
+				4A5DFF661DAE756000C2E23E /* Resources */,
+				E3CE6605169CD511887DE829 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CPDemoFWRK;
+			productName = CPDemoFWRK;
+			productReference = 4A5DFF681DAE756000C2E23E /* CPDemoFWRK.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +233,10 @@
 				ORGANIZATIONNAME = flovilmart;
 				TargetAttributes = {
 					4A5DFF4D1DAE754000C2E23E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					4A5DFF671DAE756000C2E23E = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -114,6 +256,7 @@
 			projectRoot = "";
 			targets = (
 				4A5DFF4D1DAE754000C2E23E /* CPDemo */,
+				4A5DFF671DAE756000C2E23E /* CPDemoFWRK */,
 			);
 		};
 /* End PBXProject section */
@@ -129,7 +272,106 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A5DFF661DAE756000C2E23E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		009C8138CFD0A2D845C1539B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPDemo/Pods-CPDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A5DFF751DAE768C00C2E23E /* Copy CPDemoFRWK frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy CPDemoFRWK frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPDemoFWRK/Pods-CPDemoFWRK-frameworks.sh\"";
+		};
+		52A5B70304608F7CEDC2321E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPDemo/Pods-CPDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53552ED7EA3F97C77FB3C5F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3CE6605169CD511887DE829 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPDemoFWRK/Pods-CPDemoFWRK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF6DFE91591AAF53783DC8B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A5DFF4A1DAE754000C2E23E /* Sources */ = {
@@ -141,7 +383,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A5DFF631DAE756000C2E23E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A5DFF6E1DAE756000C2E23E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A5DFF671DAE756000C2E23E /* CPDemoFWRK */;
+			targetProxy = 4A5DFF6D1DAE756000C2E23E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4A5DFF551DAE754000C2E23E /* Main.storyboard */ = {
@@ -256,8 +513,16 @@
 		};
 		4A5DFF611DAE754000C2E23E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC291169D9DC0349867D0E6 /* Pods-CPDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Parse\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ParseLiveQuery\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts-Swift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SocketRocket\"",
+				);
 				INFOPLIST_FILE = CPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flovilmart.CPDemo;
@@ -268,13 +533,67 @@
 		};
 		4A5DFF621DAE754000C2E23E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C9C2BABB8E5EC9DE9CF91C /* Pods-CPDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Parse\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/ParseLiveQuery\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/Bolts-Swift\"",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/SocketRocket\"",
+				);
 				INFOPLIST_FILE = CPDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flovilmart.CPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4A5DFF721DAE756000C2E23E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B4524CC82A53F4F877BE6E8 /* Pods-CPDemoFWRK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CPDemoFWRK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flovilmart.CPDemoFWRK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A5DFF731DAE756000C2E23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDEDE927DDC64800787DDBE3 /* Pods-CPDemoFWRK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CPDemoFWRK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flovilmart.CPDemoFWRK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -297,6 +616,16 @@
 				4A5DFF621DAE754000C2E23E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A5DFF711DAE756000C2E23E /* Build configuration list for PBXNativeTarget "CPDemoFWRK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A5DFF721DAE756000C2E23E /* Debug */,
+				4A5DFF731DAE756000C2E23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
